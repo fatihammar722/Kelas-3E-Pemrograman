@@ -14,17 +14,6 @@ Masalah ini dapat digunakan untuk menerapkan operasi matematika dalam sebuah pro
 
 **Output:** Nilai luas dan keliling lingkaran.
 
-## 💻 **Pseudocode**
-```text
-INPUT r
-
-Luas = π × r × r
-Keliling = 2 × π × r
-
-OUTPUT Luas
-OUTPUT Keliling
-
-
 ```mermaid
 %%{init: {
   "themeVariables": {
