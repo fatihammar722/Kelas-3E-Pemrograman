@@ -30,6 +30,13 @@ OUTPUT Keliling
     "fontSize": "12px"
   },
   "flowchart": {
+
+```mermaid
+%%{init: {
+  "themeVariables": {
+    "fontSize": "12px"
+  },
+  "flowchart": {
     "nodeSpacing": 15,
     "rankSpacing": 20,
     "padding": 8
