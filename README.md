@@ -74,5 +74,8 @@ Source code dapat dilihat pada **[main.py](main.py)**.
 
 Program telah berhasil diuji menggunakan dua nilai jari-jari, yaitu 7 cm dan 14 cm sesuai dengan test case. Hasil perhitungan luas dan keliling sesuai dengan nilai yang telah ditentukan.
 
+<img width="346" height="87" alt="Tangkapan Layar 2026-09-03 pukul 14 06 55" src="https://github.com/user-attachments/assets/61091f81-48fb-4b4e-8429-1e32468fa1f1" />
+
+
 <img width="369" height="87" alt="Tangkapan Layar 2026-09-03 pukul 14 07 56" src="https://github.com/user-attachments/assets/b9b00f11-6c9e-4d17-a0ae-acfbc21f235a" />
 
