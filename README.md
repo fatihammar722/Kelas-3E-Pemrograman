@@ -23,13 +23,30 @@ Keliling = 2 × π × r
 
 OUTPUT Luas
 OUTPUT Keliling
-## 📊 **Flowchart**
 
 ```mermaid
+%%{init: {
+  "themeVariables": {
+    "fontSize": "12px"
+  },
+  "flowchart": {
+    "nodeSpacing": 15,
+    "rankSpacing": 20,
+    "padding": 8
+  }
+}}%%
+
 flowchart TD
     A([START]) --> B[/INPUT jari-jari r/]
     B --> C[Luas = π × r × r]
     C --> D[Keliling = 2 × π × r]
-    D --> E[/OUTPUT Luas dan Keliling/]
+    D --> E[/OUTPUT<br/>Luas dan Keliling/]
     E --> F([END])
+
+    style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style C fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style E fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81
+    style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 ```
