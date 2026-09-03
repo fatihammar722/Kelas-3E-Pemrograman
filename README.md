@@ -16,16 +16,16 @@ Masalah ini dapat digunakan untuk menerapkan operasi matematika dalam sebuah pro
 
 
 
-## 💻 **Pseudocode**
+### 💻 **Pseudocode**
 
 ```text
-INPUT nilai
+INPUT r
 
-IF nilai < 75 THEN
-    OUTPUT "Siswa harus mengikuti ujian remedial"
-ELSE
-    OUTPUT "Siswa tidak perlu mengikuti ujian remedial"
-END IF
+Luas ← π × r × r
+Keliling ← 2 × π × r
+
+OUTPUT Luas
+OUTPUT Keliling
 ```
 
 ## 📊 **Flowchart**
@@ -43,29 +43,26 @@ END IF
 }}%%
 
 flowchart TD
-    A([START]) --> B[/INPUT nilai/]
-    B --> C{Apakah nilai < 75?}
-
-    C -->|Ya| D[/OUTPUT<br/>Siswa harus mengikuti<br/>ujian remedial/]
-    C -->|Tidak| E[/OUTPUT<br/>Siswa tidak perlu mengikuti<br/>ujian remedial/]
-
-    D --> F([END])
-    E --> F
+    A([START]) --> B[/INPUT jari-jari r/]
+    B --> C[Luas = π × r × r]
+    C --> D[Keliling = 2 × π × r]
+    D --> E[/OUTPUT<br/>Luas dan Keliling/]
+    E --> F([END])
 
     style A fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
     style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
     style C fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style D fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
     style E fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81
     style F fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 ```
 
 ## 🧪 **Test Case**
 
-| Test Case | Input Nilai | Kondisi | Hasil yang Diharapkan |
+| Test Case | Input Jari-jari | Kondisi | Hasil yang Diharapkan |
 |---|---:|---|---|
-| 1 | 60 | Nilai < 75 | Siswa harus mengikuti ujian remedial |
-| 2 | 80 | Nilai ≥ 75 | Siswa tidak perlu mengikuti ujian remedial |
+| 1 | 7 cm | r = 7 | Luas = 154 cm², Keliling = 44 cm |
+| 2 | 14 cm | r = 14 | Luas = 616 cm², Keliling = 88 cm |
 
 ## 🐍 **Implementasi Python**
 
@@ -75,4 +72,4 @@ Source code dapat dilihat pada **[main.py](main.py)**.
 
 ## 📸 **Hasil Pengujian**
 
-Program telah berhasil diuji menggunakan dua nilai, yaitu 60 dan 80 sesuai dengan test case. Hasil yang diperoleh sesuai dengan kondisi yang telah ditentukan.
+Program telah berhasil diuji menggunakan dua nilai jari-jari, yaitu 7 cm dan 14 cm sesuai dengan test case. Hasil perhitungan luas dan keliling sesuai dengan nilai yang telah ditentukan.
